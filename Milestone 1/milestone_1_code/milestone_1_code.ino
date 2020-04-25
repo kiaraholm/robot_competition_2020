@@ -27,6 +27,6 @@ void stop_bot() {
 }
 
 void drive_forward() { 
-    motors.setLeftSpeed(200);
-    motors.setRightSpeed(185);  
+    motors.setLeftSpeed(100);
+    motors.setRightSpeed(92.5);  
 }
