@@ -50,7 +50,7 @@ void loop() {
     Serial.println(line_position);
     Serial.print(sensor_vals[0]);
     Serial.print(" ");
-    Serial.println(sensor_vals[1]);
+    Serial.println(sensor_vals[5]);
   
     int error = line_position - 2500;
     int error_change = error - last_error;
